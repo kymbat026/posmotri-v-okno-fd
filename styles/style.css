@@ -69,7 +69,6 @@ ol {
   justify-content: space-between;
   gap: 16px;
   width: 100%;
-  margin-left: 14px;
 }
 .content__video-card-thumbnail {
   width: 194px;
@@ -86,7 +85,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 6px;
+  padding: 0;
 }
 .result{
   width: 711px;
@@ -169,7 +168,6 @@ ol {
 .content__video-card-description {
   font-size: 18px;
   line-height: 1;
-  margin: 0;
 }
 .visually-hidden {
   position: absolute;
