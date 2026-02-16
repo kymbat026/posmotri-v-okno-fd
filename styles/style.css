@@ -11,13 +11,15 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -54,7 +56,6 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 30px;
   inline-size: 100%;
 }
 .content__list {
