@@ -62,7 +62,7 @@ ol {
   display: flex;
   gap: 30px;
   inline-size: 100%;
-  align-items: flex-start;
+  align-items: flex-end;
   padding-left: 30px;
 }
 
