@@ -62,7 +62,7 @@ ol {
   display: flex;
   gap: 30px;
   inline-size: 100%;
-  align-items: flex-end;
+  align-items: flex-start;
   padding-left: 30px;
 }
 
@@ -70,14 +70,13 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 399px;
+  justify-content: flex-start;
 }
 
 .content__video-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 24px;
 }
 
 .content__video-card-thumbnail {
@@ -91,7 +90,6 @@ ol {
 .content__video-card-description-container {
   width: 180px;
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
   display: block;
   margin: 0;
@@ -105,6 +103,7 @@ ol {
   gap: 16px;
   align-items: flex-end;
   overflow: visible;
+  padding-top: 85px;
 }
 
 .result__video-container {
@@ -142,7 +141,7 @@ ol {
   align-items: baseline;
   position: relative;
   width: 100%;
-  margin-top: 25px;
+  margin-bottom: 45px;
   gap: 40px;
 }
 
@@ -196,6 +195,7 @@ ol {
   overflow: hidden;
   font-size: 18px;
   line-height: 1;
+  margin-bottom: 10px;
 }
 
 .visually-hidden {
@@ -268,12 +268,8 @@ ol {
   background-color: #FFF;
 }
 
-.search-form__label:hover span+* {
-  text-decoration: none;
-}
-
-.search-form__label:hover {
-  text-decoration: none;
+.search-form__label:hover span {
+  text-decoration: underline;
 }
 
 .search-form__textfield:hover {
@@ -305,7 +301,6 @@ ol {
 }
 
 .button:active {
-  color: #fff;
   background-color: #545050
 }
 
@@ -327,11 +322,9 @@ ol {
 }
 
 .more-button {
-  display: block;
+  margin-top: 30px;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 22px;
-  margin-bottom: 3px;
 }
 
 .content__card-link_current {
